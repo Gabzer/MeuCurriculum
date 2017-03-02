@@ -1,0 +1,35 @@
+/*************TÍTULO**************/
+.col-sm-12 {
+    color: white;
+    font: 3em Georgia, serif;
+    letter-spacing: 2px;
+    padding-top: 4em;
+    padding-bottom: 3.5em;
+}
+/*********************************/
+/**************CORPO**************/
+.container-fluid {
+    background-color: white;
+    height: auto;
+}
+.projetos {
+    height: auto;
+    margin-bottom: 2em;
+}
+/**********************************/
+/***************LISTA**************/
+ul.circle {
+	list-style-type: circle;
+    font-size: 3.3em;
+}
+ul {
+    line-height: 10px;
+}
+li {
+    font: 0.8em Verdana, sans-serif;
+    line-height: 30px;
+}
+hr {
+    margin: 2em;
+}
+/**********************************/

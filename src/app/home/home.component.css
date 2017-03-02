@@ -1,0 +1,32 @@
+p {
+    color: white;
+    font: 3em Georgia, serif;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin: 1.3em 5em 0.9em 6em;
+}
+#p2 {
+    color: black;
+    font: 3em Verdana, sans-serif;
+    letter-spacing: 1.8px;
+    line-height: 50px;
+    margin: 5em 5em 3em 6em;
+}
+/*******************************/
+/*************CORPO*************/
+.container-fluid{
+    background-color: white;
+    height: 60em;
+    margin-bottom: 2em;
+}
+/*******************************/
+h1 {
+    position: relative;
+    top: 1.5em;
+    letter-spacing: 1.8px;
+}
+#idHr {
+    position: relative;
+    top: 9em;
+}
+/*******************************/
