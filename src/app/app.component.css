@@ -77,18 +77,22 @@
 .bandeiras {
     position: fixed;
     top: 1em;
-    right: 5em;
+    right: 10em;
 }
 .bandeiras img {
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
-    border-radius:100px;
-    height: 5em;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.45), 0 6px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    height: auto;
     width: 5em;
+    margin: 0.5em;
 }
-.bandeiras #img1 {
+.bandeiras img:hover {
+    width: 6em;
 }
-.bandeiras #img2 {
+.bandeiras #img1:hover {
 }
-.bandeiras #img3 {
+.bandeiras #img2:hover {
 }
-/*******************************/
+.bandeiras #img3:hover {
+}
+/*****************************/
