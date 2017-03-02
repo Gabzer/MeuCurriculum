@@ -1,1 +1,1 @@
-"# MyCurriculum" 
+Project with Angular2.
