@@ -96,3 +96,23 @@
 .bandeiras #img3:hover {
 }
 /*****************************/
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #divFoto {
+        right: auto;
+        left: auto;
+    }
+    #divCabecalho2{
+        font-size: 10px;
+        position: relative;
+        left: 18em;
+    }
+    #divCabecalho2 h2{
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    #h4_title {
+        left: -4em;
+    }
+}
