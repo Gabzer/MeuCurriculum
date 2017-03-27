@@ -42,3 +42,12 @@ a {
     padding-top: 0.5em;
 }
 /**********************************/
+
+@media only screen and (max-width: 768px) {
+    p {
+        letter-spacing: 0px; 
+    }
+    a {
+        letter-spacing: 0px;
+    }
+}
