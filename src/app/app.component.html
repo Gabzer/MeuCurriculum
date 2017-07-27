@@ -1,3 +1,4 @@
+<!-- MENU MOBILE -->
 <nav class="navbar navbar-inverse navbar-fixed-top hidden-md-up">
   <div class="container-fluid">
         <div class="navbar-header">
@@ -17,6 +18,22 @@
       </div>
   </div>
 </nav>
+<!-- INTERNACIONALIZAÇÃO -->
+<div>
+  <div class="col-sm-9"></div>
+  <div class="col-sm-3">
+    <button onclick="i18next.changeLanguage('en')" id="btn">
+      <img src="../assets/img/United-States.png" alt="English">
+    </button>
+    <button onclick="i18next.changeLanguage('pt')" id="btn">
+      <img src="../assets/img/Brazil.png" alt="Portuguese">
+    </button>
+    <button onclick="i18next.changeLanguage('fr')" id="btn">
+      <img src="../assets/img/France.png" alt="Franch">
+    </button>
+  </div>
+</div>
+<!-- CABEÇALHO -->
 <div style="background-color: #F1F4F5">
   <div class="jumbotron">
     <div class="row">
@@ -34,6 +51,7 @@
         <div class="col-sm-2"></div>
     </div>
   </div>
+  <!-- MENU WEB -->
   <nav class="navbar navbar-inverse hidden-sm-down navbar2">
       <ul id="ul1" class="nav">
         <li class="col-sm-3"></li>
@@ -43,6 +61,7 @@
         <li class="col-sm-2"></li>
       </ul>
   </nav>
+  <!-- CONTEÚDO -->
   <div class="container">
     <router-outlet></router-outlet>  
   </div>

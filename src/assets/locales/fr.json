@@ -16,22 +16,22 @@
         "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Auxiliaire d'Instalation d'Équipements de Télécommunication<br><i>Période:</i>....... 01/2014 - 06/2014<br><i>Activités:</i>.. Instalation résidentiel d'équipements qui reçoivent le signal de la télévision payante.",
         
         "title2": "Formation Académique",
-        "content2_1": "<h2><strong>TECHNOLOGIQUE DE GESTIONNAIRE DE PARC INFORMATIQUE</strong></h2><i>Institution:</i>..................... Faculté de Technologie Senac Goiás<br><i>Status:</i>.......................... finit - 2017/1<br>",
-        "content2_2": "<h2><strong>GRADUAÇÃO EM FILOSOFIA E TEOLOGIA</strong></h2><i>Instituição:</i>..................... Studium Notre-Dame de Vie - Avignon - França<br><i>Status:</i>.......................... incompleto - 2009-2013",
-        "content2_3": "<h2><strong>TÉCNICO EM MONTAGEM E CONFIGURAÇÃO DE COMPUTADORES</strong></h2><i>Instituição:</i>..................... Escola Senai Morvan Figueiredo - São Paulo<br><i>Status:</i>.......................... completo - 2004",
+        "content2_1": "<h2><strong>TECHNOLOGIQUE DE GESTIONNAIRE DE PARC INFORMATIQUE</strong></h2><i>Institution:</i>..................... Faculté de Technologie Senac Goiás<br><i>Status:</i>.......................... terminé - 2017/1<br>",
+        "content2_2": "<h2><strong>BACCALAURÉAT EN PHILOSOPHIA ET THÉOLOGIE</strong></h2><i>Institution:</i>..................... Studium Notre-Dame de Vie - Avignon - France<br><i>Status:</i>.......................... incomplet - 2009-2013",
+        "content2_3": "<h2><strong>TÉCHNIQUE EN MONTAGE ET CONFIGURATION D'ORDINATEURS</strong></h2><i>Institution:</i>..................... École Senai Morvan Figueiredo - São Paulo<br><i>Status:</i>.......................... terminé - 2004",
         
-        "title3": "Idiomas",
-        "content3_1": "<h2><strong>FRANCÊS</strong></h2><i>Nível:</i>....................... Avançado/Fluente<br><i>Certificação:</i>.............. DELF B2 - atribuído pelo Ministério da Educação francês<br><i>Permanência no país:</i>.. período de 5 anos",
-        "content3_2": "<h2><strong>ITALIANO</strong></h2><i>Nível:</i>........................ Intermediário<br><i>Permanência no país:</i>.. período de 1 anos",
-        "content3_3": "<h2><strong>INGLÊS</strong></h2><i>Nível:</i>........................ Básico<br>",
+        "title3": "Langues",
+        "content3_1": "<h2><strong>FRANÇAIS</strong></h2><i>Niveau:</i>....................... Avancé/Fluent<br><i>Certification:</i>.............. DELF B2 - atribué par le Ministère de l'Éducation Français<br><i>Permanence dans le pays:</i>.. période de 5 ans",
+        "content3_2": "<h2><strong>ITALIAN</strong></h2><i>Niveau:</i>........................ Intermédiaire<br><i>Permanence dans le pays:</i>.. période de 1 ans",
+        "content3_3": "<h2><strong>ANGLAIS</strong></h2><i>Niveau:</i>........................ Basic<br>",
 
-        "title4": "Outros conhecimentos",
-        "content4_1": "<h2><strong>CERTIFICAÇÕES</strong></h2>Scrum Fundamentals Certified",
-        "content4_2": "<h2><strong>LINGUAGENS DE PROGRAMAÇÃO</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala",
-        "content4_3": "<h2><strong>ARQUITETURAS</strong></h2>REST, EJB, JSF, MVC",
+        "title4": "Autres connaissances",
+        "content4_1": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",
+        "content4_2": "<h2><strong>LANGAGES DE PROGRAMMATION CONNUS</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala",
+        "content4_3": "<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC",
 
-        "title5": "Projetos Desenvolvidos",
-        "content5": "<h2><strong>JOVENS PROFISSIONAIS</strong> - Indra Company</h2><i>Realizações:</i> Projeto realizado pela Indra Company com o objetivo de formar futuros profissionais que estão preparados para serem alocados em diversos tipos de projetos com arquiteturas e linguagens diferentes.<br>Depois de um processo seletivo onde participaram 700 pessoas, 15 delas foram escolhidas para vivenciarem um período de 3 meses onde foram apresentado aos mesmos várias linguagens de programação e arquiteturas de projetos diferentes. Após esse período, 7 seriam escolhidos para trabalharem na empresa, os 7 melhores.<br>Nesse processo todo, realmente conheci muitas arquiteturas e linguagens que eu nem sabia que existiam, frameworks, ferramentas diversas, processos de uma fábrica de software novos, testes unitário, repositórios, Scrum na prática, etc... Um dos frutos desse período é um aplicativo que está na Google Play chamado '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' que foi desenvolvido pelo framework Ionic. Enfim, eu consegui ficar entre esses 7 que seriam contratados."
+        "title5": "Projet Développé",
+        "content5": "<h2><strong>JEUNES PROFESSIONNELS</strong> - Indra Company</h2><i>Réalisations:</i> Projet réalisé par l'entreprise Indra Company dans le but de former les futurs professionnels qui seront prêts à être affectés dans une série de projets avec des différentes architectures et languages.<br>Après un processus de sélection en présence de 700 personnes, 15 d'entre elles ont été choisis pour faire l'expérience d'une période de trois mois où leur ont été présentés à divers langages de programmation et les architectures des différents projets. Après cette période, 7 seraient choisis pour travailler dans l'entreprise, les 7 meilleurs.<br>Dans ce processus, j'ai vraiment rencontré de nombreuses architectures et des langues que je ne connaissais pas, des frameworks, divers outils, les processus d'une fabrique des logiciels, tests unitaire, repositories, Scrum dans la pratique, etc... L'un des fruits de cette période est l'application qui est dans Google Play appelé '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' qui a été développé avec le framework Ionic. Quoi qu'il en soit, je suis resté parmi ces 7 qui seraient embauchés."
     },
     "contact":{
         "title": "Contacts"

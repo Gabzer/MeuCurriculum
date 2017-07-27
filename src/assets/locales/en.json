@@ -5,33 +5,33 @@
         "contact": "Contact"
     },
     "home":{
-        "siting": "'Cada sonho que você deixa pra trás<br>é um pedaço do seu futuro que deixa de existir.'",
-        "welcome": "Bem vindo!",
-        "parag1": "Este é meu Portfólio Web onde você poderá conhecer minha experiência profissional e me contactar."
+        "siting": "'Every dream you leave behind is a piece of your future that ceases to exist.'",
+        "welcome": "Welcome !",
+        "parag1": "This is my Web Portfolio where you can get to know my professional experience and contact me."
     },
     "cv":{
-        "title1": "Experiências Profissionais",
-        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Desenvolvedor de Software<br><i>Período:</i>....... 10/2016 - Atual<br><i>Atribuições:</i>.. Desenvolvimento utilizando as tecnologias JAVA EE, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Ionic. Utilizei as arquiteturas REST, EJB, e também, alguns Banco de Dados como PostgreSQL, DB2.<br> Trabalhei nos projetos: CAIXA - Sistema de Empréstimo e Financiamento, ME - Ministério do Esporte - Sistema de gestão de bolsa atleta do governo federal.",
-        "content1_2": "<h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Atendente de Biblioteca e Gerência de TI<br><i>Período:</i>....... 07/2014 - 09/2016<br><i>Atribuições:</i>.. Atendimento aos clientes e assistência e gerência da área de TI. Como Gestor de TI, eu implementei um controle por domínio na rede interna, realizado pela plataforma do Windows Server 2012. Manutenção dos computadores.",
-        "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Auxiliar de Instalação de Equipamentos de Telecomunicação<br><i>Período:</i>....... 01/2014 - 06/2014<br><i>Atribuições:</i>.. Instalação residencial de equipamentos para o recebimento de canais fechados.",
+        "title1": "Professional Experiences",
+        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Position:</i>......... Software Developer<br><i>Period:</i>....... 10/2016 - Current<br><i>Assignments:</i>.. Development using JAVA technologies EE, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS Ionic I used the REST, EJB architectures, as well as some databases like PostgreSQL, DB2. I worked on the projects: CAIXA - Loan and Financing System, ME - Ministry of Sport - federal government.",
+        "content1_2": "<h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Position:</i>......... Library Clerk and IT Management<br><i>Period:</i>....... 07/2014 - 09/2016<br><i>Assignments:</i>.. Customer service and support and management Of the IT area As an IT Manager, I implemented one control per domain on the internal network, performed by the Windows Server 2012 platform. Computer maintenance.",
+        "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Position:</i>......... Telecommunication Equipment Installation Assistant<br><i>Period:</i>....... 01/2014 - 06/2014<br><i>Assignments:</i>.. Residential installation of equipment for receiving closed channels.",
         
-        "title2": "Formação Acadêmica",
-        "content2_1": "<h2><strong>TECNOLÓGICO EM GESTÃO EM TECNOLOGIA DA INFORMAÇÃO</strong></h2><i>Instituição:</i>..................... Faculdade de Tecnologia Senac Goiás<br><i>Status:</i>.......................... completo - 2017/1<br>",
-        "content2_2": "<h2><strong>GRADUAÇÃO EM FILOSOFIA E TEOLOGIA</strong></h2><i>Instituição:</i>..................... Studium Notre-Dame de Vie - Avignon - França<br><i>Status:</i>.......................... incompleto - 2009-2013",
-        "content2_3": "<h2><strong>TÉCNICO EM MONTAGEM E CONFIGURAÇÃO DE COMPUTADORES</strong></h2><i>Instituição:</i>..................... Escola Senai Morvan Figueiredo - São Paulo<br><i>Status:</i>.......................... completo - 2004",
+        "title2": "Academic Formation",
+        "content2_1": "<h2><strong>TECHNOLOGY IN INFORMATION TECHNOLOGY MANAGEMENT</strong></h2><i>Institution:</i>..................... Faculty of Technology Senac Goiás<br><i>Status:</i>.......................... complete - 2017/1<br>",
+        "content2_2": "<h2><strong>GRADUATION IN PHILOSOPHY AND THEOLOGY</strong></h2><i>Institution:</i>..................... Studium Notre-Dame de Vie - Avignon - France<br><i>Status:</i>.......................... incomplete - 2009-2013",
+        "content2_3": "<h2><strong>COMPUTER ASSEMBLY AND CONFIGURATION TECHNIQUE</strong></h2><i>Institution:</i>..................... Senai Morvan Figueiredo School - São Paulo<br><i>Status:</i>.......................... complete - 2004",
         
-        "title3": "Idiomas",
-        "content3_1": "<h2><strong>FRANCÊS</strong></h2><i>Nível:</i>....................... Avançado/Fluente<br><i>Certificação:</i>.............. DELF B2 - atribuído pelo Ministério da Educação francês<br><i>Permanência no país:</i>.. período de 5 anos",
-        "content3_2": "<h2><strong>ITALIANO</strong></h2><i>Nível:</i>........................ Intermediário<br><i>Permanência no país:</i>.. período de 1 anos",
-        "content3_3": "<h2><strong>INGLÊS</strong></h2><i>Nível:</i>........................ Básico<br>",
+        "title3": "Languages",
+        "content3_1": "<h2><strong>FRENCH</strong></h2><i>Level:</i>....................... Advanced / Fluent<br><i>Certification:</i>.............. DELF B2 - awarded by the French Ministry of Education<br><i>Stay in the country:</i>.. 5 year period",
+        "content3_2": "<h2><strong>ITALIAN</strong></h2><i>Level:</i>........................ Intermediate<br><i>Stay in the country:</i>.. 1 year period",
+        "content3_3": "<h2><strong>ENGLISH</strong></h2><i>Level:</i>........................ Basic<br>",
 
-        "title4": "Outros conhecimentos",
-        "content4_1": "<h2><strong>CERTIFICAÇÕES</strong></h2>Scrum Fundamentals Certified",
-        "content4_2": "<h2><strong>LINGUAGENS DE PROGRAMAÇÃO</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala",
-        "content4_3": "<h2><strong>ARQUITETURAS</strong></h2>REST, EJB, JSF, MVC",
+        "title4": "Other knowledge",
+        "content4_1": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",
+        "content4_2": "<h2><strong>PROGRAMMING LANGUAGES</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala",
+        "content4_3": "<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC",
 
-        "title5": "Projetos Desenvolvidos",
-        "content5": "<h2><strong>JOVENS PROFISSIONAIS</strong> - Indra Company</h2><i>Realizações:</i> Projeto realizado pela Indra Company com o objetivo de formar futuros profissionais que estão preparados para serem alocados em diversos tipos de projetos com arquiteturas e linguagens diferentes.<br>Depois de um processo seletivo onde participaram 700 pessoas, 15 delas foram escolhidas para vivenciarem um período de 3 meses onde foram apresentado aos mesmos várias linguagens de programação e arquiteturas de projetos diferentes. Após esse período, 7 seriam escolhidos para trabalharem na empresa, os 7 melhores.<br>Nesse processo todo, realmente conheci muitas arquiteturas e linguagens que eu nem sabia que existiam, frameworks, ferramentas diversas, processos de uma fábrica de software novos, testes unitário, repositórios, Scrum na prática, etc... Um dos frutos desse período é um aplicativo que está na Google Play chamado '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' que foi desenvolvido pelo framework Ionic. Enfim, eu consegui ficar entre esses 7 que seriam contratados."
+        "title5": "Developed Projects",
+        "content5": "<h2><strong>PROFESSIONAL YOUTH</strong> - Indra Company</h2><i>Achievements:</i> Project developed by Indra Company to train future professionals who are prepared to be.<br>After a selection process where 700 people participated, 15 of them were chosen to experience a period of 3 months where they were presented to them several programming languages ​​and different project architectures In this whole process, I really knew many architectures and languages ​​that I did not even know existed, frameworks, various tools, processes of a new software factory, Unit tests, repositories, Scrum in practice, etc ... One of the fruits of this period is an application that is in Google Play called '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' which was developed by the Ionic framework. Anyway, I managed to stay among the 7 that would be hired."
     },
     "contact":{
         "title": "Contact"
