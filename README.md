@@ -48,4 +48,4 @@ npm install ng2-translate --save
 npm install
 ```
 
-[Tutorial video](www.youtube.com/watch?v=mBqUTbY2ME)
+[Tutorial video](www.youtube.com/watch?v=mBqUTbY2ME) of how to implement the translation.
