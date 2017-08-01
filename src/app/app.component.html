@@ -13,26 +13,26 @@
         <ul class="nav navbar-nav">
           <li><a routerLink="">Home</a></li>
           <li><a routerLink="/curriculum">Curriculum Vitae</a></li>
-          <li><a routerLink="/contato">Contato</a></li>
+          <li><a routerLink="/contato">{{ 'website.contactMobile' | translate }}</a></li>
         </ul>
       </div>
   </div>
 </nav>
 <!-- INTERNACIONALIZAÇÃO -->
-<!--div>
+<div>
   <div class="col-sm-9"></div>
   <div class="col-sm-3">
-    <button onclick="i18next.changeLanguage('en')" id="btn">
+    <button (click)="changeLanguage('en')" id="btn">
       <img src="../img/United-States.png" alt="English">
     </button>
-    <button onclick="i18next.changeLanguage('pt')" id="btn">
+    <button (click)="changeLanguage('pt')" id="btn">
       <img src="../img/Brazil.png" alt="Portuguese">
     </button>
-    <button onclick="i18next.changeLanguage('fr')" id="btn">
-      <img src="../img/France.png" alt="Franch">
+    <button (click)="changeLanguage('fr')" id="btn">
+      <img src="../img/France.png" alt="French">
     </button>
   </div>
-</div-->
+</div>
 <!-- CABEÇALHO -->
 <div style="background-color: #F1F4F5">
   <div class="jumbotron">
@@ -45,7 +45,7 @@
         <div class="col-sm-5">
             <div id="divCabecalho2">
                 <h2>Gabriel Zerbine</h2>
-                <h4 id="h4_title">Gestor de TI & Developer</h4>
+                <h4 id="h4_title">{{ 'website.title' | translate }}</h4>
             </div>
         </div>
         <div class="col-sm-2"></div>
@@ -57,7 +57,7 @@
         <li class="col-sm-3"></li>
         <li class="col-sm-2"><a routerLink="">Home</a></li>
         <li class="col-sm-3"><a routerLink="/curriculum">Curriculum Vitae</a></li>
-        <li class="col-sm-2"><a routerLink="/contato">Contato</a></li>
+        <li class="col-sm-2"><a routerLink="/contato">{{ 'website.contact' | translate }}</a></li>
         <li class="col-sm-2"></li>
       </ul>
   </nav>
