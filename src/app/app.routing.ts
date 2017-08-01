@@ -8,7 +8,8 @@ import { ContatoComponent } from './contato/contato.component';
 const APP_ROUTES: Routes = [
     { path: 'contato', component: ContatoComponent},
     { path: 'curriculum', component: CurriculumComponent},
-    { path: '', component: HomeComponent}
+    { path: '', component: HomeComponent, pathMatch: 'full'},
+    { path: '**', component: HomeComponent, redirectTo: '', pathMatch: 'full'}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);
