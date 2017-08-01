@@ -49,3 +49,12 @@ npm install
 ```
 
 [Tutorial video](www.youtube.com/watch?v=mBqUTbY2ME) of how to implement the translation.
+
+Publication
+-----------
+
+```text
+ng build --prod
+firebase init       -->If you have not already done
+firebase deploy
+```
