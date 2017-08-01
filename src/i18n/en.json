@@ -5,25 +5,25 @@
         "contact": "Contact"
     },
     "home":{
-        "siting": "'Every dream you leave behind is a piece of your future that ceases to exist.'",
+        "siting": "'Every dream you leave behind<br> is a piece of your future that ceases to exist.'",
         "welcome": "Welcome !",
         "parag1": "This is my Web Portfolio where you can get to know my professional experience and contact me."
     },
     "cv":{
         "title1": "Professional Experiences",
-        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Position:</i>......... Software Developer<br><i>Period:</i>....... 10/2016 - Current<br><i>Assignments:</i>.. Development using JAVA technologies EE, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS Ionic I used the REST, EJB architectures, as well as some databases like PostgreSQL, DB2. I worked on the projects: CAIXA - Loan and Financing System, ME - Ministry of Sport - federal government.",
-        "content1_2": "<h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Position:</i>......... Library Clerk and IT Management<br><i>Period:</i>....... 07/2014 - 09/2016<br><i>Assignments:</i>.. Customer service and support and management Of the IT area As an IT Manager, I implemented one control per domain on the internal network, performed by the Windows Server 2012 platform. Computer maintenance.",
-        "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Position:</i>......... Telecommunication Equipment Installation Assistant<br><i>Period:</i>....... 01/2014 - 06/2014<br><i>Assignments:</i>.. Residential installation of equipment for receiving closed channels.",
+        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Position:</i>......... Software Developer<br><i>Period:</i>........... 10/2016 - Current<br><i>Assignments:</i>.. Development using JAVA technologies EE, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Ionic, Python, Hadoop, Spark. I used the REST, EJB architectures, as well as some databases like PostgreSQL, DB2. I worked on the projects: CAIXA - Loan and Financing System, ME - Ministry of Sport - federal government.",
+        "content1_2": "<h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Position:</i>......... Library Clerk and IT Management<br><i>Period:</i>........... 07/2014 - 09/2016<br><i>Assignments:</i>.. Customer service and support and management Of the IT area. As an IT Manager, I implemented one control per domain on the internal network, performed by the Windows Server 2012 platform. Computer maintenance.",
+        "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Position:</i>......... Telecommunication Equipment Installation Assistant<br><i>Period:</i>........... 01/2014 - 07/2014<br><i>Assignments:</i>.. Residential installation of equipment for receiving closed channels.",
         
         "title2": "Academic Formation",
         "content2_1": "<h2><strong>TECHNOLOGY IN INFORMATION TECHNOLOGY MANAGEMENT</strong></h2><i>Institution:</i>..................... Faculty of Technology Senac Goiás<br><i>Status:</i>.......................... complete - 2017/1<br>",
-        "content2_2": "<h2><strong>GRADUATION IN PHILOSOPHY AND THEOLOGY</strong></h2><i>Institution:</i>..................... Studium Notre-Dame de Vie - Avignon - France<br><i>Status:</i>.......................... incomplete - 2009-2013",
+        "content2_2": "<h2><strong>GRADUATION IN PHILOSOPHY AND THEOLOGY</strong></h2><i>Institution:</i>..................... Studium Notre-Dame de Vie - Avignon - France<br><i>Status:</i>.......................... incomplete - 2008-2013",
         "content2_3": "<h2><strong>COMPUTER ASSEMBLY AND CONFIGURATION TECHNIQUE</strong></h2><i>Institution:</i>..................... Senai Morvan Figueiredo School - São Paulo<br><i>Status:</i>.......................... complete - 2004",
         
         "title3": "Languages",
-        "content3_1": "<h2><strong>FRENCH</strong></h2><i>Level:</i>....................... Advanced / Fluent<br><i>Certification:</i>.............. DELF B2 - awarded by the French Ministry of Education<br><i>Stay in the country:</i>.. 5 year period",
-        "content3_2": "<h2><strong>ITALIAN</strong></h2><i>Level:</i>........................ Intermediate<br><i>Stay in the country:</i>.. 1 year period",
-        "content3_3": "<h2><strong>ENGLISH</strong></h2><i>Level:</i>........................ Basic<br>",
+        "content3_1": "<h2><strong>FRENCH</strong></h2><i>Level:</i>....................... Advanced / Fluent<br><i>Certification:</i>.............. DELF B2 - awarded by the French Ministry of Education<br><i>Stay in the country:</i>.... 5 year period",
+        "content3_2": "<h2><strong>ITALIAN</strong></h2><i>Level:</i>........................ Intermediate<br><i>Stay in the country:</i>.... 1 year period",
+        "content3_3": "<h2><strong>ENGLISH</strong></h2><i>Level:</i>........................ Basic/Technician<br>",
 
         "title4": "Other knowledge",
         "content4_1": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",
@@ -31,7 +31,7 @@
         "content4_3": "<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC",
 
         "title5": "Developed Projects",
-        "content5": "<h2><strong>PROFESSIONAL YOUTH</strong> - Indra Company</h2><i>Achievements:</i> Project developed by Indra Company to train future professionals who are prepared to be.<br>After a selection process where 700 people participated, 15 of them were chosen to experience a period of 3 months where they were presented to them several programming languages ​​and different project architectures In this whole process, I really knew many architectures and languages ​​that I did not even know existed, frameworks, various tools, processes of a new software factory, Unit tests, repositories, Scrum in practice, etc ... One of the fruits of this period is an application that is in Google Play called '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' which was developed by the Ionic framework. Anyway, I managed to stay among the 7 that would be hired."
+        "content5": "<h2><strong>PROFESSIONAL YOUTH</strong> - Indra Company</h2><i>Achievements:</i> Project developed by Indra Company to train future professionals who are prepared to be.<br>After a selection process where 700 people participated, 15 of them were chosen to experience a period of 3 months where they were presented to them several programming languages ​​and different project architectures. In this whole process, I really knew many architectures and languages ​​that I did not even know existed, frameworks, various tools, processes of a new software factory, Unit tests, repositories, Scrum in practice, etc ... One of the fruits of this period is an application that is in Google Play called '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=en' target='_blank'>Estacione</a>' which was developed by the Ionic framework. Anyway, I managed to stay among the 7 that would be hired."
     },
     "contact":{
         "title": "Contact"

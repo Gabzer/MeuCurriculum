@@ -11,19 +11,19 @@
     },
     "cv":{
         "title1": "Expériences Professionnelles",
-        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Développeur Junior<br><i>Période:</i>....... 10/2016 - Actuel<br><i>Activités:</i>.. Développement en utilisant les technologies Java EE, HTML, AngularJS, Angular2, Backbone.js, UnderscoreJS, Ionic, Spark et Hadoop. J'ai utilisé des architectures comme REST, EJB, et aussi, des bases de données comme PostgreSQL, DB2, Oracle.<br> J'ai travaillé sur des projets: CAIXA ECONOMICA FEDERAL - système de prêts et financement, ME - Ministère des Sports Brésilien - athlète du système de gestion des stocks du gouvernement fédéral.",
-        "content1_2": "<h2><strong>CCFB ALLIANCE FRANÇAISE DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Accueil de la Médiathèque<br><i>Période:</i>....... 07/2014 - 09/2016<br><i>Activités:</i>.. Recevoir les élèves à la Médiathèque et leur présenter son contenu. Gérer toute la partie d'IT. J’ai implanté un serveur Windows Server 2012 qui faisait l’authentification des utilisateurs du réseau. J’ai donné de l’assistance technique pour la partie d’IT de l’école.",
-        "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Auxiliaire d'Instalation d'Équipements de Télécommunication<br><i>Période:</i>....... 01/2014 - 06/2014<br><i>Activités:</i>.. Instalation résidentiel d'équipements qui reçoivent le signal de la télévision payante.",
+        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Développeur Junior<br><i>Période:</i>.......... 10/2016 - Actuel<br><i>Activités:</i>........ Développement en utilisant les technologies Java EE, HTML, AngularJS, Angular2, Backbone.js, UnderscoreJS, Ionic, Spark et Hadoop. J'ai utilisé des architectures comme REST, EJB, et aussi, des bases de données comme PostgreSQL, DB2, Oracle.<br> J'ai travaillé sur des projets: CAIXA ECONOMICA FEDERAL - système de prêts et financement, ME - Ministère des Sports Brésilien - athlète du système de gestion des stocks du gouvernement fédéral.",
+        "content1_2": "<h2><strong>CCFB ALLIANCE FRANÇAISE DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Accueil de la Médiathèque<br><i>Période:</i>.......... 07/2014 - 09/2016<br><i>Activités:</i>........ Recevoir les élèves à la Médiathèque et leur présenter son contenu. Gérer toute la partie d'IT. J’ai implanté un serveur Windows Server 2012 qui faisait l’authentification des utilisateurs du réseau. J’ai donné de l’assistance technique pour la partie d’IT de l’école.",
+        "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Auxiliaire d'Instalation d'Équipements de Télécommunication<br><i>Période:</i>.......... 01/2014 - 06/2014<br><i>Activités:</i>........ Instalation résidentiel d'équipements qui reçoivent le signal de la télévision payante.",
         
         "title2": "Formation Académique",
         "content2_1": "<h2><strong>TECHNOLOGIQUE DE GESTIONNAIRE DE PARC INFORMATIQUE</strong></h2><i>Institution:</i>..................... Faculté de Technologie Senac Goiás<br><i>Status:</i>.......................... terminé - 2017/1<br>",
-        "content2_2": "<h2><strong>BACCALAURÉAT EN PHILOSOPHIA ET THÉOLOGIE</strong></h2><i>Institution:</i>..................... Studium Notre-Dame de Vie - Avignon - France<br><i>Status:</i>.......................... incomplet - 2009-2013",
+        "content2_2": "<h2><strong>BACCALAURÉAT EN PHILOSOPHIA ET THÉOLOGIE</strong></h2><i>Institution:</i>..................... Studium Notre-Dame de Vie - Avignon - France<br><i>Status:</i>.......................... incomplet - 2008-2013",
         "content2_3": "<h2><strong>TÉCHNIQUE EN MONTAGE ET CONFIGURATION D'ORDINATEURS</strong></h2><i>Institution:</i>..................... École Senai Morvan Figueiredo - São Paulo<br><i>Status:</i>.......................... terminé - 2004",
         
         "title3": "Langues",
         "content3_1": "<h2><strong>FRANÇAIS</strong></h2><i>Niveau:</i>....................... Avancé/Fluent<br><i>Certification:</i>.............. DELF B2 - atribué par le Ministère de l'Éducation Français<br><i>Permanence dans le pays:</i>.. période de 5 ans",
         "content3_2": "<h2><strong>ITALIAN</strong></h2><i>Niveau:</i>........................ Intermédiaire<br><i>Permanence dans le pays:</i>.. période de 1 ans",
-        "content3_3": "<h2><strong>ANGLAIS</strong></h2><i>Niveau:</i>........................ Basic<br>",
+        "content3_3": "<h2><strong>ANGLAIS</strong></h2><i>Niveau:</i>........................ Basic/Téchnique<br>",
 
         "title4": "Autres connaissances",
         "content4_1": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",

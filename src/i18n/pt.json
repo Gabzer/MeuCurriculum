@@ -11,19 +11,19 @@
     },
     "cv":{
         "title1": "Experiências Profissionais",
-        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Desenvolvedor de Software<br><i>Período:</i>....... 10/2016 - Atual<br><i>Atribuições:</i>.. Desenvolvimento utilizando as tecnologias JAVA EE, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Ionic. Utilizei as arquiteturas REST, EJB, e também, alguns Banco de Dados como PostgreSQL, DB2.<br> Trabalhei nos projetos: CAIXA - Sistema de Empréstimo e Financiamento, ME - Ministério do Esporte - Sistema de gestão de bolsa atleta do governo federal.",
+        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Desenvolvedor de Software<br><i>Período:</i>....... 10/2016 - Atual<br><i>Atribuições:</i>.. Desenvolvimento utilizando as tecnologias JAVA EE, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Ionic, Python, Hadoop, Spark. Utilizei as arquiteturas REST, EJB, e também, alguns Banco de Dados como PostgreSQL, DB2.<br> Trabalhei nos projetos: CAIXA - Sistema de Empréstimo e Financiamento, ME - Ministério do Esporte - Sistema de gestão de bolsa atleta do governo federal.",
         "content1_2": "<h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Atendente de Biblioteca e Gerência de TI<br><i>Período:</i>....... 07/2014 - 09/2016<br><i>Atribuições:</i>.. Atendimento aos clientes e assistência e gerência da área de TI. Como Gestor de TI, eu implementei um controle por domínio na rede interna, realizado pela plataforma do Windows Server 2012. Manutenção dos computadores.",
         "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Cargo:</i>......... Auxiliar de Instalação de Equipamentos de Telecomunicação<br><i>Período:</i>....... 01/2014 - 06/2014<br><i>Atribuições:</i>.. Instalação residencial de equipamentos para o recebimento de canais fechados.",
         
         "title2": "Formação Acadêmica",
         "content2_1": "<h2><strong>TECNOLÓGICO EM GESTÃO EM TECNOLOGIA DA INFORMAÇÃO</strong></h2><i>Instituição:</i>..................... Faculdade de Tecnologia Senac Goiás<br><i>Status:</i>.......................... completo - 2017/1<br>",
-        "content2_2": "<h2><strong>GRADUAÇÃO EM FILOSOFIA E TEOLOGIA</strong></h2><i>Instituição:</i>..................... Studium Notre-Dame de Vie - Avignon - França<br><i>Status:</i>.......................... incompleto - 2009-2013",
+        "content2_2": "<h2><strong>GRADUAÇÃO EM FILOSOFIA E TEOLOGIA</strong></h2><i>Instituição:</i>..................... Studium Notre-Dame de Vie - Avignon - França<br><i>Status:</i>.......................... incompleto - 2008-2013",
         "content2_3": "<h2><strong>TÉCNICO EM MONTAGEM E CONFIGURAÇÃO DE COMPUTADORES</strong></h2><i>Instituição:</i>..................... Escola Senai Morvan Figueiredo - São Paulo<br><i>Status:</i>.......................... completo - 2004",
         
         "title3": "Idiomas",
         "content3_1": "<h2><strong>FRANCÊS</strong></h2><i>Nível:</i>....................... Avançado/Fluente<br><i>Certificação:</i>.............. DELF B2 - atribuído pelo Ministério da Educação francês<br><i>Permanência no país:</i>.. período de 5 anos",
         "content3_2": "<h2><strong>ITALIANO</strong></h2><i>Nível:</i>........................ Intermediário<br><i>Permanência no país:</i>.. período de 1 anos",
-        "content3_3": "<h2><strong>INGLÊS</strong></h2><i>Nível:</i>........................ Básico<br>",
+        "content3_3": "<h2><strong>INGLÊS</strong></h2><i>Nível:</i>........................ Básico/Técnico<br>",
 
         "title4": "Outros conhecimentos",
         "content4_1": "<h2><strong>CERTIFICAÇÕES</strong></h2>Scrum Fundamentals Certified",
@@ -31,7 +31,7 @@
         "content4_3": "<h2><strong>ARQUITETURAS</strong></h2>REST, EJB, JSF, MVC",
 
         "title5": "Projetos Desenvolvidos",
-        "content5": "<h2><strong>JOVENS PROFISSIONAIS</strong> - Indra Company</h2><i>Realizações:</i> Projeto realizado pela Indra Company com o objetivo de formar futuros profissionais que estão preparados para serem alocados em diversos tipos de projetos com arquiteturas e linguagens diferentes.<br>Depois de um processo seletivo onde participaram 700 pessoas, 15 delas foram escolhidas para vivenciarem um período de 3 meses onde foram apresentado aos mesmos várias linguagens de programação e arquiteturas de projetos diferentes. Após esse período, 7 seriam escolhidos para trabalharem na empresa, os 7 melhores.<br>Nesse processo todo, realmente conheci muitas arquiteturas e linguagens que eu nem sabia que existiam, frameworks, ferramentas diversas, processos de uma fábrica de software novos, testes unitário, repositórios, Scrum na prática, etc... Um dos frutos desse período é um aplicativo que está na Google Play chamado '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' que foi desenvolvido pelo framework Ionic. Enfim, eu consegui ficar entre esses 7 que seriam contratados."
+        "content5": "<h2><strong>JOVENS PROFISSIONAIS</strong> - Indra Company</h2><i>Realizações:</i> Projeto realizado pela Indra Company com o objetivo de formar futuros profissionais que estão preparados para serem alocados em diversos tipos de projetos com arquiteturas e linguagens diferentes. Depois de um processo seletivo onde participaram 700 pessoas, 15 delas foram escolhidas para vivenciarem um período de 3 meses onde foram apresentado aos mesmos várias linguagens de programação e arquiteturas de projetos diferentes. Após esse período, 7 seriam escolhidos para trabalharem na empresa, os 7 melhores.Nesse processo todo, realmente conheci muitas arquiteturas e linguagens que eu nem sabia que existiam, frameworks, ferramentas diversas, processos de uma fábrica de software novos, testes unitário, repositórios, Scrum na prática, etc... Um dos frutos desse período é um aplicativo que está na Google Play chamado '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=pt' target='_blank'>Estacione</a>' que foi desenvolvido pelo framework Ionic. Enfim, eu consegui ficar entre esses 7 que seriam contratados."
     },
     "contact":{
         "title": "Contatos"
