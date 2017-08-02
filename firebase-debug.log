@@ -1,24 +1,57 @@
-[debug] [2017-08-02T11:20:39.800Z] ----------------------------------------------------------------------
-[debug] [2017-08-02T11:20:39.816Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Gabzer\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2017-08-02T11:20:39.816Z] CLI Version:  3.9.1
-[debug] [2017-08-02T11:20:39.816Z] Platform:     win32
-[debug] [2017-08-02T11:20:39.816Z] Node Version: v6.11.0
-[debug] [2017-08-02T11:20:39.816Z] Time:         Wed Aug 02 2017 08:20:39 GMT-0300 (Hora oficial do Brasil)
-[debug] [2017-08-02T11:20:39.816Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T19:20:41.576Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T19:20:41.592Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Gabzer\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase login --interactive
+[debug] [2017-08-02T19:20:41.592Z] CLI Version:  3.9.1
+[debug] [2017-08-02T19:20:41.592Z] Platform:     win32
+[debug] [2017-08-02T19:20:41.592Z] Node Version: v6.11.0
+[debug] [2017-08-02T19:20:41.592Z] Time:         Wed Aug 02 2017 16:20:41 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-08-02T19:20:41.592Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-08-02T11:20:39.847Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-08-02T11:20:39.847Z] > authorizing via signed-in user
-[debug] [2017-08-02T11:20:39.847Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-08-02T11:20:39.847Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/q33VGV-ILEwuRlpMH94QSgUY4CrEBlYnHmprPIH_0BYgvS23nfI_gilOlzJnbRM8',
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=155565197&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2017-08-02T19:20:51.421Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token { code: '4/CWnMY6VI1ldqdI607aSs6RLD1dhP2km3Q3Ons-QxWJ8',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Wed Aug 02 2017 08:20:39 GMT-0300 (Hora oficial do Brasil)
-[debug] [2017-08-02T11:20:40.742Z] <<< HTTP RESPONSE 200
-[debug] [2017-08-02T11:20:40.823Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/meucurriculum-20460  
- Wed Aug 02 2017 08:20:40 GMT-0300 (Hora oficial do Brasil)
-[debug] [2017-08-02T11:20:42.729Z] <<< HTTP RESPONSE 200
-[debug] [2017-08-02T11:20:42.729Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/meucurriculum-20460/tokens  
- Wed Aug 02 2017 08:20:42 GMT-0300 (Hora oficial do Brasil)
-[debug] [2017-08-02T11:20:43.761Z] <<< HTTP RESPONSE 200
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Wed Aug 02 2017 16:20:51 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-08-02T19:21:12.128Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T19:21:12.128Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Gabzer\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase login
+[debug] [2017-08-02T19:21:12.128Z] CLI Version:  3.9.1
+[debug] [2017-08-02T19:21:12.128Z] Platform:     win32
+[debug] [2017-08-02T19:21:12.128Z] Node Version: v6.11.0
+[debug] [2017-08-02T19:21:12.128Z] Time:         Wed Aug 02 2017 16:21:12 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-08-02T19:21:12.128Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=834252490&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2017-08-02T19:21:20.122Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token { code: '4/dKBBXOYjtNLqZDCkWbaJrXRzcRZDFrKa3948iH52wqQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Wed Aug 02 2017 16:21:20 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-08-02T19:21:43.011Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T19:21:43.011Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Gabzer\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase login
+[debug] [2017-08-02T19:21:43.011Z] CLI Version:  3.9.1
+[debug] [2017-08-02T19:21:43.011Z] Platform:     win32
+[debug] [2017-08-02T19:21:43.011Z] Node Version: v6.11.0
+[debug] [2017-08-02T19:21:43.011Z] Time:         Wed Aug 02 2017 16:21:43 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-08-02T19:21:43.011Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1059901607&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2017-08-02T19:21:59.280Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token { code: '4/JHA5B8lfVQ6PW0V0U8mrOnD95HYh7HZaSV0gEbDOUG0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Wed Aug 02 2017 16:21:59 GMT-0300 (Hora oficial do Brasil)
