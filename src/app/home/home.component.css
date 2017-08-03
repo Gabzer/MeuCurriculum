@@ -1,13 +1,13 @@
 p {
     color: white;
     font: 3em Georgia, serif;
-    letter-spacing: 2px;
-    line-height: 50px;
-    margin: 1.3em 5em 0.9em 6em;
+    letter-spacing: 4px;
+    line-height: 30px;
+    margin: 0.8em 5em 0.8em 6em;
 }
 #p2 {
     color: black;
-    font: 3em Verdana, sans-serif;
+    font: 3em Georgia, sans-serif; 
     letter-spacing: 1.8px;
     line-height: 50px;
     margin: 5em 5em 3em 6em;

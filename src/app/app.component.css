@@ -2,6 +2,7 @@
 /***************************************CABEÇALHO************************************/
 .jumbotron{
     background-color: #8D5EC7;
+    border-radius: inherit;
 }
 /*******************************/
     /**************FOTO*************/
@@ -23,9 +24,25 @@
         letter-spacing: 5px;
     }
     #h4_title{
+        text-align: center;
         position: relative;
-        left: 0.5em;
+        left: -1em;
         letter-spacing: 5px;
+    }
+    /*******************************/
+    /**********BANDEIRAS************/
+    #flags{
+        
+    }
+    #btn{
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    #btn img {
+        
     }
     /*******************************/
     /*************NAVBAR************/
@@ -36,6 +53,7 @@
         font-size: 4em;
         background-color: #3A4250;
         border-color: #3A4250;
+        border-radius: inherit;
     }
     #ul1 li{
         font-size: 0.8em;
@@ -53,6 +71,9 @@
         text-decoration: none;
         background-color: #3A4250;
     }
+    li {
+        cursor: pointer;
+    }
     /*******************************/
     /*************CORPO*************/
     .container{
@@ -62,15 +83,6 @@
         right: auto;
         margin-bottom: 40em;
         padding: 0em;
-    }
-    /*******************************/
-    /*************CORPO*************/
-    #btn{
-        background-color: Transparent;
-        background-repeat:no-repeat;
-        border: none;
-        cursor:pointer;
-        overflow: hidden;
     }
     /*******************************/
 
@@ -92,6 +104,7 @@
         margin-left: 20em; 
     }
     #divCabecalho2{
+        text-align: center;
         margin-top: 0em;
         margin-left: 2em; 
     }
