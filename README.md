@@ -46,6 +46,7 @@ But first we need to generate the folder node_modules and others:
 npm install -g @angular/cli@latest
 npm install ng2-translate --save
 npm install
+firebase init
 ```
 
 [Tutorial video](www.youtube.com/watch?v=mBqUTbY2ME) of how to implement the translation.
@@ -54,7 +55,7 @@ Publication
 -----------
 
 ```text
-ng build --prod
-firebase init       -->If you have not already done
-firebase deploy
+ng build --prod --locale en --i18n-format json --i18n-file src/i18n/en.json --locale pt --i18n-format json --i18n-file src/i18n/pt.json --locale fr --i18n-format json --i18n-file src/i18n/fr.json
+
+firebase deploy   -->For the img folder to be loaded, it was necessary to add it in the file angular-cli.json, inside "apps" and then "assets".
 ```
