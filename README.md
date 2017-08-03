@@ -49,7 +49,7 @@ npm install
 firebase init
 ```
 
-[Tutorial video](www.youtube.com/watch?v=mBqUTbY2ME) of how to implement the translation.
+[Tutorial video](https://www.youtube.com/watch?v=mBqUTbY2MiE&t=526s) of how to implement the translation.
 
 Publication
 -----------
