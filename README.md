@@ -57,5 +57,5 @@ Publication
 ```text
 ng build --prod --locale en --i18n-format json --i18n-file src/i18n/en.json --locale pt --i18n-format json --i18n-file src/i18n/pt.json --locale fr --i18n-format json --i18n-file src/i18n/fr.json
 
-firebase deploy   -->For the img folder to be loaded, it was necessary to add it in the file angular-cli.json, inside "apps" and then "assets".
+firebase deploy   -->For the img and i18n folders to be loaded, it was necessary to add it in the file angular-cli.json, inside "apps" and then "assets".
 ```
