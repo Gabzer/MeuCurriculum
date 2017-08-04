@@ -3,7 +3,7 @@
       {{ 'cv.title1' | translate}}
   </p>
 </div>
-<div align="justify" class="container-fluid">
+<div align="justify" class="container-fluid hidden-sm-down">
   <br>
   <hr />
   <ul class="circle">
@@ -23,6 +23,21 @@
   <hr />
   <hr />
   <br><br>
+</div>
+<div align="justify" class="container-fluid hidden-md-up" [innerHTML]="'cv.contentMobile' | translate">
+  <!--br>
+  <hr />
+    <div [innerHTML]="'cv.content1_1' | translate">
+    </div>
+  <hr />
+    <div [innerHTML]="'cv.content1_2' | translate">
+    </div>
+  <hr />
+    <div [innerHTML]="'cv.content1_3' | translate">
+    </div>
+  <hr />
+  <hr />
+  <br><br-->
 </div>
 
 <!-- ####################################################################################### -->
