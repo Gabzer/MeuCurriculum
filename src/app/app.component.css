@@ -31,9 +31,6 @@
     }
     /*******************************/
     /**********BANDEIRAS************/
-    #flags{
-        
-    }
     #btn{
         background-color: Transparent;
         background-repeat:no-repeat;
@@ -41,8 +38,9 @@
         cursor:pointer;
         overflow: hidden;
     }
-    #btn img {
-        
+    #flagsMob{
+        position: relative;
+        left: -18em;
     }
     /*******************************/
     /*************NAVBAR************/
@@ -73,6 +71,9 @@
     }
     li {
         cursor: pointer;
+    }
+    #btnNavMobile {
+        margin-right: -15em;
     }
     /*******************************/
     /*************CORPO*************/
