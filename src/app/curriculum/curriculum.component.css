@@ -16,6 +16,14 @@
     height: auto;
     margin-bottom: 2em;
 }
+.container{
+    background-color: #3A4250;
+    height: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 40em;
+    padding: 0em;
+}
 /**********************************/
 /***************LISTA**************/
 ul.circle {
@@ -47,5 +55,12 @@ hr {
     right: 15em;
     height: 10em;
     width: 10em;
+}
+/**********************************/
+/***************MENU***************/
+nav.nav-pills {
+    font-size: 20px; 
+    position: fixed;
+    z-index: 1;
 }
 /**********************************/

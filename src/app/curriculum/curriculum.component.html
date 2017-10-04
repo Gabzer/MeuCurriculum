@@ -1,212 +1,207 @@
-<div data-spy="scroll" data-target="#myScrollspy">
-
-
-
-  <div id="experience" class="row">
-    <p class="col-xs-12 col-sm-12" align="center"> 
-        {{ 'cv.title1' | translate}}
-    </p>
-  </div>
-  <div align="justify" class="container-fluid hidden-sm-down">
-    <br>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content1_1' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content1_2' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content1_3' | translate">
-      </li>
-    </ul>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-  <!-- Mobile -->
-  <div align="justify" class="container-fluid hidden-md-up" id="mob1">
-    <br>
-    <hr />
-      <div [innerHTML]="'cv.content1_1' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content1_2' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content1_3' | translate"></div>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-
-  <!-- ####################################################################################### -->
-  <div id="formation" class="row">
-    <p class="col-xs-12 col-sm-12" align="center"> 
-        {{ 'cv.title2' | translate}}
-    </p>
-  </div>
-  <div align="justify" class="container-fluid hidden-sm-down">
-    <br>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content2_1' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content2_2' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content2_3' | translate">
-      </li>
-    </ul>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-  <!-- Mobile -->
-  <div align="justify" class="container-fluid hidden-md-up" id="mob1">
-    <br>
-    <hr />
-      <div [innerHTML]="'cv.content2_1' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content2_2' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content2_3' | translate"></div>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-
-  <!-- ####################################################################################### -->
-  <div id="language" class="row">
-    <p class="col-xs-12 col-sm-12" align="center"> 
-        {{ 'cv.title3' | translate}}
-    </p>
-  </div>
-  <div align="justify" class="container-fluid hidden-sm-down">
-    <br>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content3_1' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content3_2' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content3_3' | translate">
-      </li>
-    </ul>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-  <!-- Mobile -->
-  <div align="justify" class="container-fluid hidden-md-up" id="mob1">
-    <br>
-    <hr />
-      <div [innerHTML]="'cv.content3_1' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content3_2' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content3_3' | translate"></div>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-
-  <!-- ####################################################################################### -->
-  <div id="language" class="row">
-    <p class="col-xs-12 col-sm-12" align="center"> 
-        {{ 'cv.title4' | translate}}
-    </p>
-  </div>
-  <div align="justify" class="container-fluid hidden-sm-down">
-    <br>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content4_1' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content4_2' | translate">
-      </li>
-    </ul>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content4_3' | translate">
-      </li>
-    </ul>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-  <!-- Mobile -->
-  <div align="justify" class="container-fluid hidden-md-up" id="mob1">
-    <br>
-    <hr />
-      <div [innerHTML]="'cv.content4_1' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content4_2' | translate"></div>
-    <hr />
-      <div [innerHTML]="'cv.content4_3' | translate"></div>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-
-  <!-- ####################################################################################### -->
-  <div id="project" class="row">
-    <p class="col-xs-12 col-sm-12" align="center"> 
-        {{ 'cv.title5' | translate}}
-    </p>
-  </div>
-  <div align="justify" class="container-fluid projetos hidden-sm-down">
-    <br>
-    <hr />
-    <ul class="circle">
-      <li [innerHTML]="'cv.content5' | translate">
-      </li>
-    </ul>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-  <!-- Mobile -->
-  <div align="justify" class="container-fluid projetos hidden-md-up" id="mob1">
-    <br>
-    <hr />
-      <div [innerHTML]="'cv.content5' | translate"></div>
-    <hr />
-    <hr />
-    <br><br>
-  </div>
-
-
 <!-- Scrollspy -->
 <!-- www.w3schools.com/bootstrap/bootstrap_scrollspy.asp -->  
-  <nav class="col-sm-3" id="myScrollspy">
-    <ul class="nav nav-pills nav-stacked">
-      <li><a href="#experience">Experiência</a></li>
-      <li><a href="#formation">Formação</a></li>
-      <li><a href="#language">Línguas</a></li>
-      <li><a href="#language">Outros</a></li>
-      <li><a href="#project">Projetos</a></li>
-    </ul>
-  </nav>
-  
-</div>
+<nav id="myScrollspy" class="nav nav-pills nav-stacked hidden-sm-down">
+  <ul class="">
+    <li class="active"><a href="/curriculum#experience">Experiência</a></li>
+    <li><a href="/curriculum#formation">Formação</a></li>
+    <li><a href="/curriculum#language">Línguas</a></li>
+    <li><a href="/curriculum#other">Outros</a></li>
+    <li><a href="/curriculum#project">Projetos</a></li>
+  </ul>
+</nav>
+<div class="container">    
+  <div>
+    <div id="experience" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title1' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content1_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content1_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content1_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content1_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content1_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content1_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
 
-<!--div>
-  <a id="aUp" href="/#up"></a>
-</div--> 
+    <!-- ####################################################################################### -->
+    <div id="formation" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title2' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content2_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content2_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content2_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content2_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content2_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content2_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+
+    <!-- ####################################################################################### -->
+    <div id="language" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title3' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content3_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content3_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content3_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content3_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content3_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content3_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+
+    <!-- ####################################################################################### -->
+    <div id="other" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title4' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content4_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content4_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content4_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content4_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content4_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content4_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+
+    <!-- ####################################################################################### -->
+    <div id="project" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title5' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid projetos hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content5' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid projetos hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content5' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>    
+  </div>
+  <!--div>
+    <a id="aUp" href="/#up"></a>
+  </div-->
+</div>

@@ -14,6 +14,14 @@
     margin-bottom: 2em;
     padding-bottom: 3em;
 }
+.container{
+    background-color: #3A4250;
+    height: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 40em;
+    padding: 0em;
+}
 /**********************************/
 /*************ICONES***************/
 img {
