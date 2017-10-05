@@ -62,5 +62,22 @@ nav.nav-pills {
     font-size: 20px; 
     position: fixed;
     z-index: 1;
+    background-color: #3A4250;
+    color: white;
 }
+nav.nav-pills a {
+    color: white;
+}
+nav.nav-pills a:hover {
+    background-color: #3A4250; 
+    color: #8D5EC7;
+    text-shadow: 2px 2px 4px #000000;
+}
+.affix {
+    top: 206px;
+}
+/*div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+}*/
 /**********************************/
