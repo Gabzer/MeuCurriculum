@@ -1,118 +1,93 @@
-/*******************************/
-/***********CABEÇALHO***********/
+/************************************************************************************/
+/***************************************CABEÇALHO************************************/
 .jumbotron{
     background-color: #8D5EC7;
-    height: 36em;
 }
 /*******************************/
-/**************FOTO*************/
-#divCabecalho1{
-    left: 55em;
-}
-.img-circle{
-    height: 20em;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
-}
-/*******************************/
-/************TITULO*************/
-#divCol-sm-4{
-    top: 4.5em;
-    left: 9em;
-}
-#divCabecalho2{
-    color: white;
-    font: bold 12px Georgia, serif;
-    text-shadow: 2px 2px 4px #000000;
-    margin-top: 2em;
-    margin-left: -6em; 
-}
-#divCabecalho2 h2{
-    font-size: 40px;
-    letter-spacing: 5px;
-}
-#h4_title{
-    position: relative;
-    left: 2.3em;
-    letter-spacing: 5px;
-}
-/*******************************/
-/*************NAVBAR************/
-.navbar{
-    position: relative;
-    top: -1.5em;
-    height: 3em;
-    font-size: 4em;
-    background-color: #3A4250;
-    border-color: #3A4250;
-}
-#ul1 li{
-    font-size: 0.8em;
-    top: 0.2em;
-}
-#ul1 li a{
-    color: white;
-}
-#ul1 li a:hover{
-    background-color: #3A4250; 
-    color: #8D5EC7;
-    text-shadow: 2px 2px 4px #000000;
-}
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #3A4250;
-}
-/*******************************/
-/*************CORPO*************/
-.container{
-    background-color: #3A4250;
-    width: 150em;
-    height: auto;
-    left: auto;
-    right: auto;
-    margin-bottom: 40em;
-    padding: 0em;
-}
-/*******************************/
-/***********BANDEIRAS***********/
-.bandeiras {
-    position: fixed;
-    top: 1em;
-    right: 10em;
-}
-.bandeiras img {
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.45), 0 6px 40px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 100%;
-    height: auto;
-    width: 5em;
-    margin: 0.5em;
-}
-.bandeiras img:hover {
-    width: 6em;
-}
-.bandeiras #img1:hover {
-}
-.bandeiras #img2:hover {
-}
-.bandeiras #img3:hover {
-}
-/*****************************/
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-    #divFoto {
-        right: auto;
-        left: auto;
+    /**************FOTO*************/
+    .img-circle{
+        height: 20em;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
     }
+    /*******************************/
+    /************TITULO*************/
     #divCabecalho2{
-        font-size: 10px;
-        position: relative;
-        left: 18em;
+        color: white;
+        font: bold 12px Georgia, serif;
+        text-shadow: 2px 2px 4px #000000;
+        margin-top: 2em;
+        margin-left: -6em; 
     }
     #divCabecalho2 h2{
-        font-size: 20px;
-        letter-spacing: 0px;
+        font-size: 40px;
+        letter-spacing: 5px;
     }
-    #h4_title {
-        left: -4em;
+    #h4_title{
+        position: relative;
+        left: 2.3em;
+        letter-spacing: 5px;
+    }
+    /*******************************/
+    /*************NAVBAR************/
+    .navbar2{
+        position: relative;
+        top: -1.5em;
+        height: 3em;
+        font-size: 4em;
+        background-color: #3A4250;
+        border-color: #3A4250;
+    }
+    #ul1 li{
+        font-size: 0.8em;
+        top: 0.2em;
+    }
+    #ul1 li a{
+        color: white;
+    }
+    #ul1 li a:hover{
+        background-color: #3A4250; 
+        color: #8D5EC7;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: #3A4250;
+    }
+    /*******************************/
+    /*************CORPO*************/
+    .container{
+        background-color: #3A4250;
+        height: auto;
+        left: auto;
+        right: auto;
+        margin-bottom: 40em;
+        padding: 0em;
+    }
+    /*******************************/
+
+
+
+@media only screen and (max-width: 768px) {
+    .hidden-md-up{
+        background-color: #3A4250;
+        margin-bottom: 0em;
+    }
+    #navbar{
+        font-size: 5em;
+    }
+    #navbar ul{
+        text-align: justify;
+    }
+    .img-circle{
+        margin-top: 0em;
+        margin-left: 20em; 
+    }
+    #divCabecalho2{
+        margin-top: 0em;
+        margin-left: 2em; 
+    }
+    .container{
     }
 }
+/************************************************************************************/
+/************************************************************************************/
