@@ -1,0 +1,13 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist",
+    "redirects":  {
+      "source" : "/gabrielzerbine/*",
+      "destination" : "https://www.gabrielzerbine.com.br",
+      "type" : 302
+    }
+  }
+}

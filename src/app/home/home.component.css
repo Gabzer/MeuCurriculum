@@ -1,13 +1,13 @@
 p {
     color: white;
     font: 3em Georgia, serif;
-    letter-spacing: 2px;
-    line-height: 50px;
-    margin: 1.3em 5em 0.9em 6em;
+    letter-spacing: 4px;
+    line-height: 30px;
+    margin: 1em 5em 1em 6em;
 }
 #p2 {
     color: black;
-    font: 3em Verdana, sans-serif;
+    font: 3em Georgia, sans-serif; 
     letter-spacing: 1.8px;
     line-height: 50px;
     margin: 5em 5em 3em 6em;
@@ -20,6 +20,17 @@ p {
     padding-bottom: 2em;
     margin-bottom: 2em;
     text-align: justify;
+<<<<<<< HEAD
+=======
+}
+.container{
+    background-color: #3A4250;
+    height: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 40em;
+    padding: 0em;
+>>>>>>> ebd1ea886232b9c7329e920fa19df4ba6eaa96b7
 }
 /*******************************/
 h1 {

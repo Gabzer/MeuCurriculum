@@ -1,17 +1,17 @@
-<p align="center"> 
-  <i>"Cada sonho que você deixa pra trás<br>
-  é um pedaço do seu futuro que deixa de existir."</i><br>
-  <span>Steve Jobs</span><br>
-</p>
-<div class="container-fluid">
-  <h1 align="center">Bem vindo!</h1>
-  <hr id="idHr" />
-  <hr id="idHr" />
-  <p id="p2">
-    Este é meu Portfólio Web onde você poderá
-    conhecer minha experiência profissional
-    e me contactar.
+
+<div class="container">
+  <p align="center">
+    <i [innerHTML]="'home.siting' | translate"></i><br>
+    <strong>Steve Jobs</strong><br>
   </p>
-  <hr />
-  <hr />
-</div> 
+  <div class="container-fluid">
+    <h1 align="center">{{ 'home.welcome' | translate }}</h1>
+    <hr id="idHr" />
+    <hr id="idHr" />
+    <p id="p2">
+      {{ 'home.parag1' | translate }}
+    </p>
+    <hr />
+    <hr />
+  </div>
+</div>

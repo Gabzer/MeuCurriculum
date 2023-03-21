@@ -6,9 +6,10 @@ import { CurriculumComponent } from './curriculum/curriculum.component';
 import { ContatoComponent } from './contato/contato.component';
 
 const APP_ROUTES: Routes = [
+    { path: '', component: HomeComponent},
     { path: 'contato', component: ContatoComponent},
     { path: 'curriculum', component: CurriculumComponent},
-    { path: '', component: HomeComponent}
+    { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);

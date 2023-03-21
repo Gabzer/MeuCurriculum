@@ -1,146 +1,180 @@
-<div id="up" class="row">
-  <p class="col-xs-12 col-sm-12" align="center"> 
-      Experiências Profissionais
-  </p>
-</div>
-<div align="justify" class="container-fluid">
-  <br>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2>
-        <i>Cargo:</i>......... Desenvolvedor de Software<br>
-        <i>Período:</i>....... 10/2016 - Atual<br>
-        <i>Atribuições:</i>.. Desenvolvimento utilizando as tecnologias JAVA EE, HTML, AngularJS,
-        Angular2, BackboneJS, UnderscoreJS, Ionic. Utilizei as arquiteturas REST, EJB, e também,
-        alguns Banco de Dados como PostgreSQL, DB2.<br>
-        Trabalhei nos projetos: CAIXA - Sistema de Empréstimo e Financiamento, ME - Ministério do 
-        Esporte - Sistema de gestão de bolsa atleta do governo federal.
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2>
-        <i>Cargo:</i>......... Atendente de Biblioteca e Gerência de TI<br>
-        <i>Período:</i>....... 07/2014 - 09/2016<br>
-        <i>Atribuições:</i>.. Atendimento aos clientes e assistência e gerência da área de TI.
-        Como Gestor de TI, eu implementei um controle por domínio na rede interna, realizado
-        pela plataforma do Windows Server 2012. Manutenção dos computadores.
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>TELEMONT</strong> - Goiânia - GO</h2>
-        <i>Cargo:</i>......... Auxiliar de Instalação de Equipamentos de Telecomunicação<br>
-        <i>Período:</i>....... 01/2014 - 06/2014<br>
-        <i>Atribuições:</i>.. Instalação residencial de equipamentos para o recebimento de
-        canais fechados.
-    </li>
-  </ul>
-  <hr />
-  <hr />
-  <br><br>
-</div>
+<!-- Scrollspy -->
+<!-- www.w3schools.com/bootstrap/bootstrap_scrollspy.asp -->  
+<nav id="myScrollspy" class="nav nav-pills nav-stacked hidden-sm-down" data-spy="affix" data-offset-top="0">
+    <ul class="nav navbar-nav" role="tablist">
+      <li class="active"><a href="#experience">Experiência</a></li>
+      <li><a href="#formation">Formação</a></li>
+      <li><a href="#language">Línguas</a></li>
+      <li><a href="#other">Outros</a></li>
+      <li><a href="#project">Projetos</a></li>
+    </ul>
+</nav>
+<div class="container">    
+  <div>
+    <div id="experience" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title1' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content1_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content1_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content1_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content1_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content1_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content1_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
 
-<!-- ####################################################################################### -->
-<div class="row">
-  <p class="col-xs-12 col-sm-12" align="center"> 
-      Formação Acadêmica
-  </p>
-</div>
-<div align="justify" class="container-fluid">
-  <br>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>TECNOLÓGICO EM GESTÃO EM TECNOLOGIA DA INFORMAÇÃO</strong></h2>
-        <i>Instituição:</i>..................... Faculdade de Tecnologia Senac Goiás<br>
-        <i>Status:</i>.......................... cursando<br>
-        <i>Previsão de Graduação:</i>... Jul/2017
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>GRADUAÇÃO EM FILOSOFIA E TEOLOGIA</strong></h2>
-        <i>Instituição:</i>..................... Studium Notre-Dame de Vie - Avignon - França<br>
-        <i>Status:</i>.......................... incompleto
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>TÉCNICO EM MONTAGEM E CONFIGURAÇÃO DE COMPUTADORES</strong></h2>
-        <i>Instituição:</i>..................... Senai Móoca - São Paulo<br>
-        <i>Status:</i>.......................... completo - 2000
-    </li>
-  </ul>
-  <hr />
-  <hr />
-  <br><br>
-</div>
+    <!-- ####################################################################################### -->
+    <div id="formation" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title2' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content2_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content2_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content2_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content2_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content2_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content2_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
 
-<!-- ####################################################################################### -->
-<div class="row">
-  <p class="col-xs-12 col-sm-12" align="center"> 
-      Idiomas
-  </p>
-</div>
-<div align="justify" class="container-fluid">
-  <br>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>FRANCÊS</strong></h2>
-        <i>Nível:</i>....................... Avançado/Fluente<br>
-        <i>Certificação:</i>.............. DELF B2 - atribuído pelo Ministério da Educação francês<br>
-        <i>Permanência no país:</i>.. período de 5 anos
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>ITALIANO</strong></h2>
-        <i>Nível:</i>........................ Intermediário<br>
-        <i>Permanência no país:</i>.. período de 1 anos
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>INGLÊS</strong></h2>
-        <i>Nível:</i>........................ Básico<br>
-    </li>
-  </ul>
-  <hr />
-  <hr />
-  <br><br>
-</div>
+    <!-- ####################################################################################### -->
+    <div id="language" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title3' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content3_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content3_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content3_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content3_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content3_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content3_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
 
-<!-- ####################################################################################### -->
-<div class="row">
-  <p class="col-xs-12 col-sm-12" align="center"> 
-      Outros conhecimentos
-  </p>
-</div>
-<div align="justify" class="container-fluid">
-  <br>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>CERTIFICAÇÕES</strong></h2>
-        Scrum Fundamentals Certified
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>LINGUAGENS DE PROGRAMAÇÃO</strong></h2>
-        Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL
-    </li>
-  </ul>
-  <hr />
-  <ul class="circle">
-    <li><h2><strong>ARQUITETURAS</strong></h2>
-        REST, EJB, JSF, MVC
-    </li>
-  </ul>
-  <hr />
-  <hr />
-  <br><br>
-</div>
+    <!-- ####################################################################################### -->
+    <div id="other" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title4' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content4_1' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content4_2' | translate">
+        </li>
+      </ul>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content4_3' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content4_1' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content4_2' | translate"></div>
+      <hr />
+        <div [innerHTML]="'cv.content4_3' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
 
+<<<<<<< HEAD
 <!-- ####################################################################################### -->
 <div class="row">
   <p class="col-xs-12 col-sm-12" align="center"> 
@@ -174,3 +208,36 @@
 <!--div>
   <a id="aUp" href="/#up"></a>
 </div--> 
+=======
+    <!-- ####################################################################################### -->
+    <div id="project" class="row">
+      <p class="col-xs-12 col-sm-12" align="center"> 
+          {{ 'cv.title5' | translate}}
+      </p>
+    </div>
+    <div align="justify" class="container-fluid projetos hidden-sm-down">
+      <br>
+      <hr />
+      <ul class="circle">
+        <li [innerHTML]="'cv.content5' | translate">
+        </li>
+      </ul>
+      <hr />
+      <hr />
+      <br><br>
+    </div>
+    <!-- Mobile -->
+    <div align="justify" class="container-fluid projetos hidden-md-up" id="mob1">
+      <br>
+      <hr />
+        <div [innerHTML]="'cv.content5' | translate"></div>
+      <hr />
+      <hr />
+      <br><br>
+    </div>    
+  </div>
+  <!--div>
+    <a id="aUp" href="/#up"></a>
+  </div-->
+</div>
+>>>>>>> ebd1ea886232b9c7329e920fa19df4ba6eaa96b7
